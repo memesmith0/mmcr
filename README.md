@@ -10,4 +10,4 @@
 #RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 #
 #THIS SOFTWARE.
-(unset f c;while read -r i;do if [ "$i" = m ] ;then read -r i;c="$c$i";read -r i;f="$f$i";else echo "$i"|awk "$f{o=\$0;$c print o}";fi;done)
+(unset f c;while read -r i;do if [ "$i" = m ] ;then read -r i;c="$c$i";read -r i;f="$f$i";else echo "$i"|awk "$f{o=\$0;$c print o}"||exit;fi;done)
