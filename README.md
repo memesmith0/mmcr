@@ -11,3 +11,4 @@
 #
 #THIS SOFTWARE.
 mmcr(){ (a(){ unset f c;while read -r i;do if [ "$i" = m ] ;then read -r i;c="$c$i";read -r i;f="$f$i";else echo "$i"|awk "$f{o=\$0;$c print o}"||exit;fi;done;};a|a|sh>&2)};
+mmcr;
