@@ -10,4 +10,4 @@
 #RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 #
 #THIS SOFTWARE.
-(c="";while read -r i;do if [ "$i" = m ] ;then read -r i;c="$c$i";else echo "$i"|sh -c "read -r o;$c echo \"\$o\""||exit;fi;done)
+mmcr is the core of mcr. it is the micro mcr. see --> https://github.com/memesmith0/mcr15
