@@ -10,5 +10,4 @@
 #RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 #
 #THIS SOFTWARE.
-mmcr(){ (a(){ f="";c=f;while read i;do if [ "$i" = m ] ;then read i;c="$c$i";read i;f="$f$i";else echo "$i"|awk "$f{o=\$0;$c print o}"||exit;fi;done;};a|a|sh>&2)};#https://github.com/memesmith0/mmcr
-mmcr;
+(a(){ f="";c=f;while read i;do if [ "$i" = m ] ;then read i;c="$c$i";read i;f="$f$i";else echo "$i"|awk "$f{o=\$0;$c print o}"||exit;fi;done;};a|a|sh>&2)
