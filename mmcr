@@ -11,3 +11,4 @@
 #
 #THIS SOFTWARE.
 mmcr(){ sh -e "$1"|sh|sh>&2;};
+mmcr "$1";
