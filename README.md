@@ -10,4 +10,31 @@
 #RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 #
 #THIS SOFTWARE.
-mmcr is the core of mcr. it is the micro mcr. see --> https://github.com/memesmith0/mcr16
+mmcr is a very tiny posix macro system designed to give you a series of reader macros to a language where the macros have macros. it is a
+hack that allows you to change the way any programming language is written while it is running.
+
+Lets apply mmcr to the program python3:
+
+sh|sh|python3<&2
+
+to understand how this program can do anything at all a good exercise is to try to print something using this language. this can be done with
+
+echo echo "\"print(\\\"hello\\\");\""
+
+essentially every line of code passes between two posix shells. this means that the posix shell has an opportunity to manipulate the code that passes
+through it.
+
+the first shell in the pipeline is designed to manipulate the syntax of the second shell. the second shell in the pipeline is designed to edit the syntax
+of the interpreter at the end of the pipeline. thus with this setup it is possible to manipulate the syntax of python with reader macros.
+
+in order to work in a more compiled fashion one can do something like
+
+cat my_c_program.c | sh | sh > outputfile.c
+
+because of the very small size of mmcr, it is not a legally copyrightable program. extremely small programs such as this that are only a few characters long
+can not be legally copyrighted or patented due to their small sizes.
+
+you may ask "memesmith, why do you have a copyright license on your program knowing that it can't be copyrighted."
+
+This license is a warning to the user that the software does not come with any guarantee of merchantibility or fitness, rather than something to try to
+control what the user is allowed to do with the code.
