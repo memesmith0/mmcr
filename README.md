@@ -38,3 +38,16 @@ you may ask "memesmith, why do you have a copyright license on your program know
 
 This license is a warning to the user that the software does not come with any guarantee of merchantibility or fitness, rather than something to try to
 control what the user is allowed to do with the code.
+
+
+disregard all of the above bullshit
+
+this is an explanation of mmcr
+
+you pipe sh into sh like so: sh | sh
+
+what this does is it creates a one line non copyrightable way to add syntax macros to posix shell (thus why we use sh instead of bash).
+
+instead of typing echo hello you have to type echo "echo hello" to get anything to print
+
+thus the first instance of sh acts as a preprocessor and the second instance of sh is the runtime
