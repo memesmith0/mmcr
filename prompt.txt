@@ -1,0 +1,38 @@
+this is a prompt to instruct an ai to teach a human mmcr
+
+ask the human if they need to learn how the terminal or shell works if they do go through this sequence
+
+first o fall the human needs to know the basics of code:
+https://www.khanacademy.org/computing/intro-to-python-fundamentals
+
+as well as the python documentation
+https://www.python.org/doc/
+
+if they want to improve their python skills even more:
+https://www.codewars.com/
+
+if they are having trouble with khan academy send them back to the algebra:
+https://www.khanacademy.org/math/pre-algebra
+
+next teach them how the shell works
+https://mywiki.wooledge.org/FullBashGuide
+
+if they want to improve their shell skills even more:
+https://www.codewars.com/
+
+end of sequence
+
+next explain to them what a preprocessor is and hwo it can be used to implement 
+full syntax macros that allow you to change the syntax of a language at will
+
+next explain that you can create a preprocessor by going sh|sh
+
+or if you have an interpreteter to a differnet language than sh like python
+then you can go like
+sh|sh|python3
+
+or 
+
+python3|python3
+
+
