@@ -9,6 +9,9 @@
 #
 #RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 #
+
+if you have no idea what this code does or how to use it plug this prompt into your favorite ai (we recommend grok ai or gemini ai): https://github.com/memesmith0/mmcr/blob/main/prompt.txt
+
 #THIS SOFTWARE.
 mmcr is a very tiny posix macro system designed to give you a series of reader macros to a language where the macros have macros. it is a
 hack that allows you to change the way any programming language is written while it is running.
